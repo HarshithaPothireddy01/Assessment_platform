@@ -95,7 +95,6 @@ const Login = ({ onLogin }) => {
       const response = await fetch(`/api/signup`, {
         method: 'POST',
         credentials: 'include',
-        credentials: 'include',
         headers: {
           'Content-Type': 'application/json',
         },
