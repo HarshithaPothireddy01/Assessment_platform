@@ -12,7 +12,7 @@ function App() {
   const [examData, setExamData] = useState(null);
   const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [theme, setTheme] = useState('light');
+  const [, setTheme] = useState('light');
 
   // Check if user is already logged in on app start
   useEffect(() => {
