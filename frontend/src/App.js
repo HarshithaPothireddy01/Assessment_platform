@@ -45,12 +45,6 @@ function App() {
     }
   };
 
-  const toggleTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme);
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('exam-theme', newTheme);
-  };
 
   const handleLogin = (userData) => {
     setUser(userData);
